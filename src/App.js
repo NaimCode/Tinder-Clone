@@ -1,15 +1,15 @@
 import React from "react";
+import SwipeButtons from "./SwipeButtons";
+
 import "./App.css";
 import Header from "./Header";
-
+import TinderCards from "./TinderCards";
 function App() {
   return (
     <div className="App">
-      <h1>Lets build tinder clone</h1>
-
       <Header />
-      {/*TinderCard */}
-      {/*SwipeButton */}
+      <TinderCards />
+      <SwipeButtons />
     </div>
   );
 }
